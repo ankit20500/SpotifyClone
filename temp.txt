@@ -1,0 +1,5 @@
+playButton.addEventListener('click', ()=> {
+        var audio = new Audio(songs[3]);
+        console.log(audio)
+        audio.play();
+    });
